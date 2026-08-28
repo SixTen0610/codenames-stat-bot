@@ -1,0 +1,21 @@
+﻿# Secrets — NEVER commit
+.env
+*.env
+OBS Password*.txt
+
+# Runtime state & logs
+.bot-state.json
+*.log
+botlog.txt
+
+# Backups
+*.bak
+
+# Dependencies (regenerable via npm install)
+node_modules/
+
+# OS cruft
+Thumbs.db
+desktop.ini
+
+Older Versions & Unused Files/
